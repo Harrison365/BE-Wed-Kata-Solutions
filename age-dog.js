@@ -6,6 +6,8 @@ ageDog(dog, 1) // returns { name: 'Otis', age: 2 }
 
 // dog is not mutated and still has the form { name: 'Otis', age: 1 } */
 
-const ageDog = (dog, num) => {};
+const ageDog = (dog, num) => {
+  console.log("yo");
+};
 
 module.exports = ageDog;
